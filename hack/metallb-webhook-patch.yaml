@@ -1,0 +1,15 @@
+webhooks:
+- failurePolicy: Ignore
+  name: bgppeersvalidationwebhook.metallb.io
+- failurePolicy: Ignore
+  name: addresspoolvalidationwebhook.metallb.io
+- failurePolicy: Ignore
+  name: bfdprofilevalidationwebhook.metallb.io
+- failurePolicy: Ignore
+  name: bgpadvertisementvalidationwebhook.metallb.io
+- failurePolicy: Ignore
+  name: communityvalidationwebhook.metallb.io
+- failurePolicy: Ignore
+  name: ipaddresspoolvalidationwebhook.metallb.io
+- failurePolicy: Ignore
+  name: l2advertisementvalidationwebhook.metallb.io
